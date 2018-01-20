@@ -1,0 +1,18 @@
+body {
+  font-family: 'Risque', cursive, sans-serif;
+  font-size: 48px;
+}
+
+.clock {
+  width: 500px;
+  background-color: orange;
+  border: 2px solid purple;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 13px;
+}
+
+.time, .date {
+  display: flex;
+  justify-content: space-between;
+}
